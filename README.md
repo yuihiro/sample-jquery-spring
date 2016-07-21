@@ -1,1 +1,1 @@
-# SpringJquery
+# sample-jquery-spring
