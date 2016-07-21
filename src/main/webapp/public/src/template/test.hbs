@@ -1,0 +1,13 @@
+<div>
+    <div id="grid"/>
+
+    {{#each items}}
+        <li>
+            <h3><a href="/{{ idx }}">{{player_1_id }}{{uppercase "bb"}}</a></h3>
+            <p>{{ comment }}</p>
+            <button class="test_btn">테스트{{@index}}</button>
+            {{> partial }}
+        </li>
+    {{/each}}
+
+</div>
